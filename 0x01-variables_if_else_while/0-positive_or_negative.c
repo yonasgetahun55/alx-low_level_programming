@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main -Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -16,7 +18,7 @@ int main(void)
 	}
 	if (n == 0)
 	{
-		printf("%2d is zero\n", n);
+		printf("%2dis zero\n", n);
 	}
 	if (n < 0)
 	{
