@@ -12,25 +12,19 @@ void jack_bauer(void)
 	int hrr;
 	int sec;
 
-	for (hr = 0; hr <= 2; hr++)
+	for (hr = 0; hr <= 23; hr++)
 	{
-		for (hrr = 0; hrr <= 3; hrr++)
+		for (min = 0; min <= 5; min++)
 		{
-			for (min = 0; min <= 5; min++)
+			for (sec = 0; sec <= 9; sec++)
 			{
-				for (sec = 0; sec <= 9; sec++)
-				{
-					_putchar(hr + '0');
-					_putchar(hrr + '0');
-					_putchar(':');
-					_putchar(min + '0');
-					_putchar(sec + '0');
-					_putchar('\n');
-				}
-			
+				_putchar(hr + '0');
+				_putchar(':');
+				_putchar(min + '0');
+				_putchar(sec + '0');
+				_putchar('\n');
 			}
-
-		}
 		
+		}
 	}
 }
