@@ -9,5 +9,5 @@
  */
 void print_rev(char *s)
 {
-	printf("%s", strrev(s));
+	printf("%d", strrev(s));
 }
