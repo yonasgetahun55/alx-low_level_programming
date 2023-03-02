@@ -13,7 +13,8 @@ char *string_toupper(char *c)
 
 	for (i = 0; c[i] != '\n'; i++)
 	{
-		c[i] = toupper(c[i]);
+		if (c[i] >= 97 && c[i] <= 122)
+			c[i] = c[i] - 32;
 	}
 
 	return (c);
