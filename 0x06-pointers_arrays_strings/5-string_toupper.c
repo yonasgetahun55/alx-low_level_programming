@@ -1,6 +1,4 @@
 #include "main.h"
-#include <ctype.h>
-#include <string.h>
 /**
 * string_toupper - function
 * @c: param
